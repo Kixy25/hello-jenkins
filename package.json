@@ -1,0 +1,27 @@
+{
+  "name": "jenkins-git",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kixy25/hello-jenkins.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kixy25/hello-jenkins/issues"
+  },
+  "homepage": "https://github.com/Kixy25/hello-jenkins#readme",
+  "devDependencies": {
+    "mocha": "1.20.1",
+    "supertest": "0.13.0"
+  },
+  "dependencies": {
+    "express": "^4.15.5"
+  }
+}
